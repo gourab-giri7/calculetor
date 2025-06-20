@@ -109,23 +109,23 @@ let divide=document.querySelector('#divide');
 let cancel=document.querySelector('#cancel');
 let toDark=document.querySelector('#toDark');
 plus.addEventListener("click",function (){
-	 n1=parseInt(document.querySelector('#num1').value)
-	 n2=parseInt(document.querySelector('#num2').value)
+	 n1=parseFloat(document.querySelector('#num1').value)
+	 n2=parseFloat(document.querySelector('#num2').value)
 	document.querySelector('#display').innerText=n1+n2;
 })
 minus.addEventListener("click",function (){
-	 n1=parseInt(document.querySelector('#num1').value)
-	 n2=parseInt(document.querySelector('#num2').value)
+	 n1=parseFloat(document.querySelector('#num1').value)
+	 n2=parseFloat(document.querySelector('#num2').value)
 	document.querySelector('#display').innerText=n1-n2;
 })
 mul.addEventListener("click",function (){
-	 n1=parseInt(document.querySelector('#num1').value)
-	 n2=parseInt(document.querySelector('#num2').value)
+	 n1=parseFloat(document.querySelector('#num1').value)
+	 n2=parseFloat(document.querySelector('#num2').value)
 	document.querySelector('#display').innerText=n1*n2;
 })
 divide.addEventListener("click",function (){
-	 n1=parseInt(document.querySelector('#num1').value)
-	 n2=parseInt(document.querySelector('#num2').value)
+	 n1=parseFloat(document.querySelector('#num1').value)
+	 n2=parseFloat(document.querySelector('#num2').value)
 	document.querySelector('#display').innerText=n1/n2;
 })
 cancel.addEventListener("click", function(){
